@@ -57,3 +57,6 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+
+gem 'daniel_lee_view_tool', git: 'https://github.com/ddlee929/daniel_lee_view_tool'
+

@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    DanielLeeViewTool::Renderer.copyright 'Daniel Lee', 'All rights reserved'
+  end
 end
