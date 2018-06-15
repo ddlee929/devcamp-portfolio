@@ -1,10 +1,33 @@
-3.times do |topic|
-    Topic.create!(
-        title: "#{topic}"
+User.create!(
+    email: "test3@test.com",
+    password: "asdfasdf",
+    password_confirmation: "asdfasdf",
+    name: "Test Tester"
     )
-end
+puts "One reg user created"
 
-puts "3 Topics created"
+User.create!(
+    email: "admin@test.com",
+    password: "asdfasdf",
+    password_confirmation: "asdfasdf",
+    name: "Admin Tester",
+    roles: "site_admin"
+    )
+puts "One Admin created"
+
+Topic.create!(
+    title: "Topic Test"
+)
+
+Topic.create!(
+    title: "Topic Test2"
+)
+
+Topic.create!(
+    title: "Topic Test3"
+)
+
+puts "3 topics created"
 
 10.times do |blog|
 Blog.create!(
@@ -55,8 +78,7 @@ puts "9 portfolio items created"
 
 3.times do |technology|
     Portfolio.last.technologies.create!(
-        name: "Technology #{technology}",
+        name: "Technology #{technology}"
     )
 end
-
 puts "3 technologies_created"
