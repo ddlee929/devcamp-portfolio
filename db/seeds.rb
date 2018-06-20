@@ -27,7 +27,15 @@ Topic.create!(
     title: "Topic Test3"
 )
 
-puts "3 topics created"
+Topic.create!(
+    title: "Rails"
+)
+
+Topic.create!(
+    title: "Coding Exercises"
+)
+
+puts "5 topics created"
 
 10.times do |blog|
 Blog.create!(
@@ -81,4 +89,5 @@ puts "9 portfolio items created"
         name: "Technology #{technology}"
     )
 end
+
 puts "3 technologies_created"
