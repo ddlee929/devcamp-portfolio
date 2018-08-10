@@ -31,7 +31,7 @@ gem 'friendly_id', '~> 5.1.0'
 
 gem 'devise', '~> 4.4', '>= 4.4.1'
 
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.1.0'
 
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
@@ -46,3 +46,15 @@ gem 'carrierwave-aws', '~> 1.3'
 gem 'dotenv-rails', '~> 2.4'
 gem 'cocoon', '~> 1.2', '>= 1.2.11'
 gem 'gritter', '~> 1.2'
+gem 'twitter', '~> 6.2'
+gem 'redis', '~> 4.0', '>= 4.0.1'
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+
+
+
+
+
+
+
+
