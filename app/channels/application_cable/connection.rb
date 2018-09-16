@@ -18,12 +18,12 @@ module ApplicationCable
     #   logger.add_tags 'ActionCable', current_user.id
     # end
 
-    protected
+    # protected
 
-    def find_verified_user 
-      if verified_user = env['warden'].user
-        verified_user
-      end
-    end 
+    # def find_verified_user 
+    #   if verified_user = env['warden'].user
+    #     verified_user
+    #   end
+    # end
   end
 end
